@@ -30,9 +30,12 @@ namespace ParkourWebhookResponseDemo.Controllers
             //{
             //    EnableSsl = true
             //};
-            var Username = "ycaresite@gmail.com";
+            //var Username = "ycaresite@gmail.com";
+            //var Password = "YCare007";
+            var Username = "kaludisalman78617@gmail.com";
+            var Password = "salmansk";
             var ToAddress = "salman@differenzsystem.com";
-            var Password = "YCare007";
+            
             var mailMessage = new MailMessage();
             mailMessage.From = new MailAddress(Username);
             mailMessage.To.Add(ToAddress);
