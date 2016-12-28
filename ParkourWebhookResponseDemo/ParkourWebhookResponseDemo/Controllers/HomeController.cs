@@ -12,6 +12,11 @@ namespace ParkourWebhookResponseDemo.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+
+        public ActionResult Index()
+        {
+            return View();
+        }   
         [HttpPost]
         public ActionResult StripeWebhook()
         {
